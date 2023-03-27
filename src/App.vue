@@ -1,29 +1,20 @@
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div>
+    <appoint-calender></appoint-calender>
+  </div>
 </template>
-
 <script>
+import AppointCalender from './components/LoginUI/LogInPage.vue'
 export default {
-  name: 'TestApp',
+  components: {AppointCalender},
 
   data() {
-    return {
-      
-    };
+    return {}
   },
 
-  mounted() {
-    
-  },
+  methods: {},
+  mounted() {},
 
-  methods: {
-    
-  },
-};
+  methods: {}
+}
 </script>
-
-<style lang="scss" scoped>
-
-</style>
