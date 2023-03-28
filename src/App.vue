@@ -4,7 +4,7 @@
   </div>
 </template>
 <script>
-import AppointCalender from './components/LoginUI/LogInPage.vue'
+import AppointCalender from './components/User/CalendarUser.vue'
 export default {
   components: {AppointCalender},
 
